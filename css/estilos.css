@@ -1,17 +1,18 @@
-header{
- background: #2c3e50;
-
-color: #FFFFFF;
+.col-md-4{
+    color: dimgray;
 }
 
-.main{
-	background: #F2F2F2;
-}
 .color1{
 
-	background-color: #34495e;
+	background-color: #000;
 	color: #FFFFFF;
 }
+
+.color3{
+	background-color: #616161;
+	color: #fff;
+}
+
 aside{
 	background: #c0392b;
 	color: #FFFFFF;
@@ -22,3 +23,47 @@ footer{
 	color: #FFFFFF;
 }
 
+.row{
+
+	background: #FFFFFF;
+	color: #78909C;
+
+}
+
+.info-img{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+
+}
+@media only screen and (min-width : 768px) {
+    .is-table-row {
+        display: table;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+}
+.row img{
+	
+	
+	 display:flex;
+  margin:0 auto;
+  border-radius: 50%;
+  border: 7px solid #424242;
+}
+
+.row h3{
+	text-align: center;
+}
+
+.fondo{
+   
+background-image: url(img/barbosa.jpg);
+    
+    }
+
+    

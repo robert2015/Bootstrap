@@ -1,0 +1,13 @@
+.navbar-header{
+	 background: #2c3e50;
+color: #FFFFFF;
+width: 100%;
+height: 40px; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed;
+	padding-top: 30px; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+body { padding-top: 30px; 
+
